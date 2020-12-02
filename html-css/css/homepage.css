@@ -10,21 +10,29 @@
     font-weight: normal;
 }
 
-@media (min-width: 576px) body {
+body {
     font-family: oswald;
 }
 
-#container1 {
-    background-image: url("./../img/header.jpg");
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../img/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-family: courgette;
 }
 
 #navbarNav a {
-    color: rgb(255, 255, 255);
+    font-family: oswald;
 }
 
-#courgette {
-    color: white;
-    font-family: courgette;
+.img {
+    margin-bottom: 16px;
+}
+
+#middle {
+    text-align: center;
+    padding: 30px;
 }
 
 .plat {
@@ -56,4 +64,9 @@ footer li {
     padding: 8px;
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
