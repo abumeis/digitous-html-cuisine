@@ -1,0 +1,59 @@
+@font-face {
+    font-family: courgette;
+    src: url(./../fonts/Courgette-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./../fonts/Oswald-Regular.ttf);
+    font-weight: normal;
+}
+
+@media (min-width: 576px) body {
+    font-family: oswald;
+}
+
+#container1 {
+    background-image: url("./../img/header.jpg");
+}
+
+#navbarNav a {
+    color: rgb(255, 255, 255);
+}
+
+#courgette {
+    color: white;
+    font-family: courgette;
+}
+
+.plat {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-family: courgette;
+}
+
+footer p {
+    font-family: courgette;
+}
+
+footer li {
+    text-decoration: underline;
+    font-family: oswald;
+    list-style-type: none;
+}
+
+.icon-bar a {
+    background-color: white;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
