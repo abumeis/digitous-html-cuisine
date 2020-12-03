@@ -60,6 +60,10 @@ footer li {
     list-style-type: none;
 }
 
+footer li a {
+    color: white;
+}
+
 .icon-bar a {
     background-color: white;
     padding: 8px;
@@ -69,4 +73,14 @@ footer li {
 
 img {
     height: 100px;
+}
+
+h5 {
+    font-family: courgette;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 16px;
 }
