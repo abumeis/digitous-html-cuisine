@@ -52,7 +52,7 @@ header {
     font-family: courgette;
 }
 
-.photo img {
+.auteur {
     border-radius: 50%;
 }
 
@@ -100,4 +100,12 @@ p a {
     text-decoration: none;
     color: black;
     margin-bottom: 16px;
+}
+
+hr {
+    border-top: 1px solid rgb(185, 185, 185);
+}
+
+.highlithed-logo {
+    opacity: 0.5;
 }
