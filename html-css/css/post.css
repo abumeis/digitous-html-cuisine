@@ -14,16 +14,29 @@ body {
     font-family: oswald;
 }
 
+#navbar {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+#text-gradient h2 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
 header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../img/header.jpg) no-repeat center;
+    background: url(./../img/suzette-header.jpg) no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     color: white;
     font-family: courgette;
+    margin-bottom: 24px;
 }
 
 #navbarNav a {
     font-family: oswald;
+}
+
+.container {
+    margin-bottom: 32px;
 }
 
 .img {
@@ -37,6 +50,10 @@ header {
 
 .text h2 {
     font-family: courgette;
+}
+
+.photo img {
+    border-radius: 50%;
 }
 
 footer {
