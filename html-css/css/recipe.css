@@ -1,0 +1,112 @@
+@font-face {
+    font-family: courgette;
+    src: url(./../fonts/Courgette-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./../fonts/Oswald-Regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-family: oswald;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/paella-header.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-family: courgette;
+}
+
+#navbarNav a {
+    font-family: oswald;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 44px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    font-family: courgette;
+}
+
+footer p {
+    font-family: courgette;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+footer li {
+    text-decoration: underline;
+    font-family: oswald;
+    list-style-type: none;
+}
+
+footer li a {
+    color: white;
+}
+
+.ingredients {
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: courgette;
+}
+
+.ingredients span {
+    background-color: #636363;
+    color: white;
+    padding: 4px 16px;
+    display: inline-block;
+    border-radius: 16px;
+    margin-bottom: 4px;
+}
+
+.timer div {
+    background-color: #AAA;
+    text-align: center;
+    padding: 8px;
+    margin: 4px 0;
+}
+
+.resume {
+    margin-bottom: 24px;
+}
+
+.sponsor img {
+    width: 100%;
+}
+
+.sponsored .img-container {
+    position: relative;
+}
+
+.sponsor span {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 0 4px;
+    top: -24px;
+    background-color: #AAA;
+}
+
+.content h6 {
+    font-family: courgette;
+}
+
+.icon-bar a {
+    background-color: white;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
