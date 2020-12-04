@@ -49,7 +49,7 @@ header {
     font-family: 'Oswald';
     font-weight: bold;
     float: left;
-    font-size: 62px;
+    font-size: 70px;
     line-height: 0.5em;
     padding-right: 8px;
     padding-top: 5px;
@@ -60,7 +60,7 @@ header {
     padding: 30px;
 }
 
-.text h2 {
+.auteur h3 {
     font-family: courgette;
 }
 
@@ -71,8 +71,8 @@ header {
 footer {
     background-color: black;
     color: white;
-    padding-top: 36px;
-    padding-bottom: 70px;
+    padding-top: 44px;
+    padding-bottom: 20px;
 }
 
 footer h2 {
@@ -91,12 +91,10 @@ footer li {
     text-decoration: underline;
     font-family: oswald;
     list-style-type: none;
-    padding: 0px;
 }
 
 footer li a {
     color: white;
-    padding: 0px;
 }
 
 .icon-bar a {
@@ -132,14 +130,6 @@ hr {
     justify-content: center;
 }
 
-.inputfield {
-    position: relative;
-    top: 30px;
-    font-size: 60px!important;
-    font-family: 'Lato', sans-serif !important;
-    font-weight: 400;
-    color: white;
-    width: 400px;
-    line-height: 100px!important;
-    opacity: 0.2;
+#lightoff {
+    opacity: 0.5;
 }
