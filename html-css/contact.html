@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Cuisine</title>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#">
+                <h2>Cui'zine</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr class="bg-light mt-1">
+        <!-- logo -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center ">
+                    <img class="img" src="img/logo_square_white.png" alt="logo">
+                    <h1>NOUS CONTACTER</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <article>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="courgette">Contact</h2>
+                        </div>
+                        <div class="col-12 col-md-10 offset-md-1">
+                            <h3 class="courgette">NAdresse</h3>
+                            <p>Station F</p>
+                            <p>5 Parvis Alan Turing</p>
+                            <p>75013 Paris</p>
+                        </div>
+                        <div class="col-12 post-content">
+                            <div id="mapid">
+                                <script>
+                                    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+                                    L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=xMQ5Wi5L4l2G8FJOXJmo', {
+                                        attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+                                    }).addTo(mymap);
+                                    var marker = L.marker([48.862725, 2.287592]).addTo(mymap);
+                                </script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="d-none d-lg-block col-lg-2">
+                    <div class="section search">
+                        <!-- form 1 -->
+                        <form>
+                            <div class="form-group">
+                                <h5>Recherche</h5>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Recherch....">
+                                <button type="button" class="btn-lg btn-block btn-outline-dark">OK</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="section search">
+                        <form>
+                            <div class="form-group">
+                                <h5>Newsletter</h5>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                                <button type="button" class="btn-lg btn-block btn-outline-dark">S'inscrir</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class=" social-icon ">
+                        <div class="icon-bar ">
+                            <h5>Partager</h5>
+                            <a href="# " class="facebook "><i class="fa fa-facebook "></i></a>
+                            <a href="# " class="google "><i class="fa fa-instagram "></i></a>
+                            <a href="# " class="youtube "><i class="fa fa-youtube "></i></a>
+                            <a href="# " class="twitter "><i class="fa fa-twitter "></i></a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+    </article>
+
+
+
+    <!-- fooeter -->
+
+    <footer>
+        <div class=" container-lg">
+            <div class=" row ">
+                <div class="col-12 col-md-12 col-lg-4 ">
+                    <div class="Catégories ">
+                        <h2>Catégories</h2>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="# ">Reveus</a>
+                                </li>
+
+                                <li>
+                                    <a href="# ">Recettes</a>
+
+                                </li>
+
+                                <li>
+                                    <a href="# ">Decouvertes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 offset-lg-0 ">
+                    <div class="archives "></div>
+                    <h2>Archives</h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="# ">2019</a>
+                            </li>
+                            <li>
+                                <a href="# ">2018</a>
+                            </li>
+                            <li>
+                                <a href="# ">2017</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 offset-lg-0 ">
+                    <div>
+                        <p>Newsletter</p>
+                    </div>
+                    <form class="form-inline ">
+                        <div class="form-group mb-2 ">
+                        </div>
+                        <div class="form-group mx-sm-0 mb-2 ">
+                            <input type="email " class="form-control " id="inputEmail2 " placeholder="Email ">
+                        </div>
+                        <button type="submit " class="btn btn-dark mb-2 ">S'inscrire</button>
+                    </form>
+
+
+                    <div class="Catégories "></div>
+                    <p>Partager</p>
+                    <div class="icon-bar ">
+                        <a href="# " class="facebook "><i class="fa fa-facebook "></i></a>
+                        <a href="# " class="google "><i class="fa fa-instagram "></i></a>
+                        <a href="# " class="youtube "><i class="fa fa-youtube "></i></a>
+                        <a href="# " class="twitter "><i class="fa fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- fooeter -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

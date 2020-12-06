@@ -1,0 +1,12 @@
+.container-fluid {
+    padding-top: 24px;
+    padding-bottom: 56px;
+}
+
+#mapid {
+    height: 500px;
+}
+
+.courgette {
+    font-family: courgette;
+}
