@@ -68,35 +68,6 @@ header {
     border-radius: 50%;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding-top: 44px;
-    padding-bottom: 20px;
-}
-
-footer h2 {
-    font-family: courgette;
-}
-
-footer p {
-    font-family: courgette;
-}
-
-footer ul {
-    padding: 0px;
-}
-
-footer li {
-    text-decoration: underline;
-    font-family: oswald;
-    list-style-type: none;
-}
-
-footer li a {
-    color: white;
-}
-
 .icon-bar a {
     background-color: white;
     padding: 8px;
