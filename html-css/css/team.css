@@ -1,0 +1,23 @@
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/team.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-family: courgette;
+    padding-bottom: 240pt;
+}
+
+.post-content {
+    padding-top: 24px;
+}
+
+.post-content img {
+    float: left;
+    width: 200px;
+    margin: 0 16px 16px 0;
+}
+
+.container-fluid {
+    padding-top: 24px;
+    padding-bottom: 56px;
+}

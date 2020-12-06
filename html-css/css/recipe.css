@@ -26,35 +26,6 @@ header {
     font-family: oswald;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding-top: 44px;
-    padding-bottom: 20px;
-}
-
-footer h2 {
-    font-family: courgette;
-}
-
-footer p {
-    font-family: courgette;
-}
-
-footer ul {
-    padding: 0px;
-}
-
-footer li {
-    text-decoration: underline;
-    font-family: oswald;
-    list-style-type: none;
-}
-
-footer li a {
-    color: white;
-}
-
 .ingredients {
     margin-bottom: 16px;
 }
@@ -109,4 +80,8 @@ h2 {
     padding: 8px;
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
+
+article {
+    padding-top: 30px;
 }
